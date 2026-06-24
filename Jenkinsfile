@@ -17,8 +17,10 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'docker-compose down || true
-		    docker-compose up -d'
+                sh '''
+                    docker-compose down || true
+                    docker-compose up -d
+                '''
             }
         }
 
@@ -39,6 +41,7 @@ pipeline {
         success {
             echo 'Deployment Successful'
         }
+
         failure {
             echo 'Deployment Failed'
         }
