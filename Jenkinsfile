@@ -11,19 +11,19 @@ pipeline {
 
         stage('Validate') {
             steps {
-                sh 'docker compose config'
+                sh 'docker-compose config'
             }
         }
 
         stage('Build') {
             steps {
-                sh 'docker compose build'
+                sh 'docker-compose build'
             }
         }
 
         stage('Deploy') {
             steps {
-                echo 'docker compose up -d'
+                echo 'docker-compose up -d'
             }
         }
 
