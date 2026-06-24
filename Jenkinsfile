@@ -17,13 +17,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'docker --version'
+                sh 'docker compose build'
             }
         }
 
         stage('Deploy') {
             steps {
-                echo 'Deployment Completed'
+                echo 'docker compose up -d'
             }
         }
 
