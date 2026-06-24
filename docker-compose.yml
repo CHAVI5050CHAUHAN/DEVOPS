@@ -1,21 +1,16 @@
 services:
-
   nginx:
     image: nginx:1.25
     ports:
       - "80:80"
     volumes:
-      - ./php:/var/www/html
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-    depends_on:
-      - php
-    networks:
-      - app-network
+      - /home/ubuntu/DevOps_Assignment/php:/var/www/html
+      - /home/ubuntu/DevOps_Assignment/nginx/default.conf:/etc/nginx/conf.d/default.conf
 
   php:
     build: ./php
     volumes:
-      - ./php:/var/www/html
+      - /home/ubuntu/DevOps_Assignment/php:/var/www/html
     networks:
       - app-network
 
