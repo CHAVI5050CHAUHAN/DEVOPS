@@ -1,12 +1,11 @@
-# Google Style Input Fields
-## [Watch it on youtube](https://youtu.be/UCMNYTid070)
-### Google Style Input Fields
+# PHP-MySQL-Login-System
+User login and registration system built using PHP and MySQL .
 
-- Google Style Input Fields Using HTML & CSS
-- Contains a login form with Google-style input fields.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+**Live Project URL -** [PHP-MySQL-Login-System](https://live-demo97.000webhostapp.com/)
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
-
-![preview img](/preview.png)
+![screenshot](./img/screenshot-1.png)
+![screenshot](./img/screenshot-2.png)
+![screenshot](./img/screenshot-3.png)
+![screenshot](./img/screenshot-4.png)
+![screenshot](./img/screenshot-5.png)
+![screenshot](./img/screenshot-6.png)
