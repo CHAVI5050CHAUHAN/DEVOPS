@@ -11,7 +11,7 @@ pipeline {
 
         stage('Validate') {
             steps {
-                sh 'ls -la'
+                sh 'docker compose config'
             }
         }
 
